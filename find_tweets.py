@@ -43,4 +43,5 @@ def find_sentiment(tweet_json):
     return 1
 
 
-find_tweets(1.357918, 103.800260)
+for tweet in find_tweets(1.357918, 103.800260):
+    print(tweet["text"])
